@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		618D835E28C0D6F700363FCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618D835D28C0D6F700363FCD /* AppDelegate.swift */; };
+		618D836028C0D6F700363FCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618D835F28C0D6F700363FCD /* SceneDelegate.swift */; };
+		618D836228C0D6F700363FCD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618D836128C0D6F700363FCD /* SearchViewController.swift */; };
+		618D836528C0D6F700363FCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 618D836328C0D6F700363FCD /* Main.storyboard */; };
+		618D836828C0D6F700363FCD /* Bore_Doom.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 618D836628C0D6F700363FCD /* Bore_Doom.xcdatamodeld */; };
+		618D836A28C0D6F900363FCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 618D836928C0D6F900363FCD /* Assets.xcassets */; };
+		618D836D28C0D6F900363FCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 618D836B28C0D6F900363FCD /* LaunchScreen.storyboard */; };
+		618D837928C0DBE900363FCD /* SavedActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618D837828C0DBE900363FCD /* SavedActivitiesViewController.swift */; };
+		618D837B28C0DCD100363FCD /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618D837A28C0DCD100363FCD /* ActivityCell.swift */; };
+		618D837D28C0DDBA00363FCD /* ActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618D837C28C0DDBA00363FCD /* ActivityManager.swift */; };
+		618D837F28C0DE4A00363FCD /* ActivityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618D837E28C0DE4A00363FCD /* ActivityData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		618D835A28C0D6F700363FCD /* Bore-Doom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bore-Doom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		618D835D28C0D6F700363FCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		618D835F28C0D6F700363FCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		618D836128C0D6F700363FCD /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		618D836428C0D6F700363FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		618D836728C0D6F700363FCD /* Bore_Doom.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bore_Doom.xcdatamodel; sourceTree = "<group>"; };
+		618D836928C0D6F900363FCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		618D836C28C0D6F900363FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		618D836E28C0D6F900363FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		618D837828C0DBE900363FCD /* SavedActivitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedActivitiesViewController.swift; sourceTree = "<group>"; };
+		618D837A28C0DCD100363FCD /* ActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
+		618D837C28C0DDBA00363FCD /* ActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityManager.swift; sourceTree = "<group>"; };
+		618D837E28C0DE4A00363FCD /* ActivityData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		618D835728C0D6F700363FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		618D835128C0D6F700363FCD = {
+			isa = PBXGroup;
+			children = (
+				618D835C28C0D6F700363FCD /* Bore-Doom */,
+				618D835B28C0D6F700363FCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		618D835B28C0D6F700363FCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				618D835A28C0D6F700363FCD /* Bore-Doom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		618D835C28C0D6F700363FCD /* Bore-Doom */ = {
+			isa = PBXGroup;
+			children = (
+				618D837628C0D79D00363FCD /* Model */,
+				618D837528C0D79700363FCD /* View */,
+				618D837428C0D78E00363FCD /* Controller */,
+				618D837728C0D7A200363FCD /* Supporting Files */,
+			);
+			path = "Bore-Doom";
+			sourceTree = "<group>";
+		};
+		618D837428C0D78E00363FCD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				618D836128C0D6F700363FCD /* SearchViewController.swift */,
+				618D837A28C0DCD100363FCD /* ActivityCell.swift */,
+				618D837828C0DBE900363FCD /* SavedActivitiesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		618D837528C0D79700363FCD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				618D836328C0D6F700363FCD /* Main.storyboard */,
+				618D836B28C0D6F900363FCD /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		618D837628C0D79D00363FCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				618D836628C0D6F700363FCD /* Bore_Doom.xcdatamodeld */,
+				618D837E28C0DE4A00363FCD /* ActivityData.swift */,
+				618D837C28C0DDBA00363FCD /* ActivityManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		618D837728C0D7A200363FCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				618D836928C0D6F900363FCD /* Assets.xcassets */,
+				618D836E28C0D6F900363FCD /* Info.plist */,
+				618D835D28C0D6F700363FCD /* AppDelegate.swift */,
+				618D835F28C0D6F700363FCD /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		618D835928C0D6F700363FCD /* Bore-Doom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 618D837128C0D6F900363FCD /* Build configuration list for PBXNativeTarget "Bore-Doom" */;
+			buildPhases = (
+				618D835628C0D6F700363FCD /* Sources */,
+				618D835728C0D6F700363FCD /* Frameworks */,
+				618D835828C0D6F700363FCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bore-Doom";
+			productName = "Bore-Doom";
+			productReference = 618D835A28C0D6F700363FCD /* Bore-Doom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		618D835228C0D6F700363FCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					618D835928C0D6F700363FCD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 618D835528C0D6F700363FCD /* Build configuration list for PBXProject "Bore-Doom" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 618D835128C0D6F700363FCD;
+			productRefGroup = 618D835B28C0D6F700363FCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				618D835928C0D6F700363FCD /* Bore-Doom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		618D835828C0D6F700363FCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618D836D28C0D6F900363FCD /* LaunchScreen.storyboard in Resources */,
+				618D836A28C0D6F900363FCD /* Assets.xcassets in Resources */,
+				618D836528C0D6F700363FCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		618D835628C0D6F700363FCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618D837928C0DBE900363FCD /* SavedActivitiesViewController.swift in Sources */,
+				618D836828C0D6F700363FCD /* Bore_Doom.xcdatamodeld in Sources */,
+				618D836228C0D6F700363FCD /* SearchViewController.swift in Sources */,
+				618D837D28C0DDBA00363FCD /* ActivityManager.swift in Sources */,
+				618D837F28C0DE4A00363FCD /* ActivityData.swift in Sources */,
+				618D835E28C0D6F700363FCD /* AppDelegate.swift in Sources */,
+				618D837B28C0DCD100363FCD /* ActivityCell.swift in Sources */,
+				618D836028C0D6F700363FCD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		618D836328C0D6F700363FCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				618D836428C0D6F700363FCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		618D836B28C0D6F900363FCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				618D836C28C0D6F900363FCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		618D836F28C0D6F900363FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		618D837028C0D6F900363FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		618D837228C0D6F900363FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7WTLW784B9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bore-Doom/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ilya.Bore-Doom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		618D837328C0D6F900363FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7WTLW784B9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bore-Doom/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ilya.Bore-Doom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		618D835528C0D6F700363FCD /* Build configuration list for PBXProject "Bore-Doom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				618D836F28C0D6F900363FCD /* Debug */,
+				618D837028C0D6F900363FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		618D837128C0D6F900363FCD /* Build configuration list for PBXNativeTarget "Bore-Doom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				618D837228C0D6F900363FCD /* Debug */,
+				618D837328C0D6F900363FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		618D836628C0D6F700363FCD /* Bore_Doom.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				618D836728C0D6F700363FCD /* Bore_Doom.xcdatamodel */,
+			);
+			currentVersion = 618D836728C0D6F700363FCD /* Bore_Doom.xcdatamodel */;
+			path = Bore_Doom.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 618D835228C0D6F700363FCD /* Project object */;
+}

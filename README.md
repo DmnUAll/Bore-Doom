@@ -12,7 +12,6 @@ The application contains redirects to external web pages (on button click) assoc
 <img src="https://user-images.githubusercontent.com/82824022/212390291-d33959f0-d1fa-4889-a97e-262197b820d2.PNG" width=30% height=30%> 
 </p>
 
-This project was the eleventh app writen by myself.\
 The main functionality that was applied in this project:
 - CoreData
 - JSON parsing
